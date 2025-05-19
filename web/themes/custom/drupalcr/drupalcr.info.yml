@@ -1,0 +1,13 @@
+name: DrupalCR
+type: theme
+base theme: drupalcr_starter
+description: Tema para la comunidad Drupal Costa Rica
+package: Custom
+core_version_requirement: ^10 || ^11
+libraries:
+  - drupalcr/global
+
+regions:
+  header: 'Header'
+  content: 'Content'
+  footer: 'Footer'

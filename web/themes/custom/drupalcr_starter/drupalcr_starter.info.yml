@@ -1,0 +1,23 @@
+name: drupalcr_starter
+type: theme
+'base theme': stable9
+version: 1.0.0
+hidden: true
+libraries:
+  - drupalcr_starter/base
+  - drupalcr_starter/messages
+  - core/normalize
+libraries-extend:
+  user/drupal.user:
+    - drupalcr_starter/user
+  core/drupal.dropbutton:
+    - drupalcr_starter/dropbutton
+  core/drupal.dialog:
+    - drupalcr_starter/dialog
+  file/drupal.file:
+    - drupalcr_starter/file
+  core/drupal.progress:
+    - drupalcr_starter/progress
+description: ''
+core_version_requirement: ^11
+generator: 'starterkit_theme:11.1.7'
