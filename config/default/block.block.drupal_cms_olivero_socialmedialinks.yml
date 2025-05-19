@@ -1,0 +1,177 @@
+uuid: 62c1bd2d-a46f-4790-b1fc-908c99527d01
+langcode: en
+status: true
+dependencies:
+  module:
+    - social_media_links
+  theme:
+    - drupal_cms_olivero
+id: drupal_cms_olivero_socialmedialinks
+theme: drupal_cms_olivero
+region: footer_top
+weight: 0
+provider: null
+plugin: social_media_links_block
+settings:
+  id: social_media_links_block
+  label: Connect
+  label_display: visible
+  provider: social_media_links
+  platforms:
+    email:
+      value: ''
+      description: ''
+      weight: '-10'
+    mastodon:
+      value: ''
+      description: ''
+      weight: '-9'
+    gitlab:
+      value: ''
+      description: ''
+      weight: '-8'
+    website:
+      value: ''
+      description: ''
+      weight: '-7'
+    twitter:
+      value: drupalcr
+      description: ''
+      weight: '-6'
+    whatsapp:
+      value: ''
+      description: ''
+      weight: '-5'
+    amazon:
+      value: ''
+      description: ''
+      weight: '-4'
+    behance:
+      value: ''
+      description: ''
+      weight: '-3'
+    facebook:
+      value: drupalcr
+      description: ''
+      weight: '-2'
+    youtube_channel:
+      value: DrupalCostaRica
+      description: ''
+      weight: '-1'
+    meetup:
+      value: Drupal-Costa-Rica
+      description: ''
+      weight: '0'
+    xing:
+      value: ''
+      description: ''
+      weight: '1'
+    goodreads:
+      value: ''
+      description: ''
+      weight: '2'
+    contact:
+      value: ''
+      description: ''
+      weight: '3'
+    tiktok:
+      value: ''
+      description: ''
+      weight: '4'
+    flickr:
+      value: ''
+      description: ''
+      weight: '5'
+    vkontakte:
+      value: ''
+      description: ''
+      weight: '6'
+    rss:
+      value: ''
+      description: ''
+      weight: '7'
+    github:
+      value: 'Drupal Costa Rica'
+      description: ''
+      weight: '8'
+    linkedin:
+      value: 'Drupal Costa Rica'
+      description: ''
+      weight: '9'
+    drupal:
+      value: CR
+      description: ''
+      weight: '10'
+    pinterest:
+      value: ''
+      description: ''
+      weight: '11'
+    googleplus:
+      value: ''
+      description: ''
+      weight: '12'
+    googleplay:
+      value: ''
+      description: ''
+      weight: '13'
+    youtube:
+      value: ''
+      description: ''
+      weight: '14'
+    slideshare:
+      value: ''
+      description: ''
+      weight: '15'
+    whatsapp_channel:
+      value: ''
+      description: ''
+      weight: '16'
+    yandex_zen:
+      value: ''
+      description: ''
+      weight: '17'
+    tumblr:
+      value: ''
+      description: ''
+      weight: '18'
+    vimeo:
+      value: ''
+      description: ''
+      weight: '19'
+    instagram:
+      value: DrupalCR
+      description: ''
+      weight: '20'
+    glassdoor:
+      value: ''
+      description: ''
+      weight: '21'
+    patreon:
+      value: ''
+      description: ''
+      weight: '22'
+    bitbucket:
+      value: DrupalCR
+      description: ''
+      weight: '23'
+    soundcloud:
+      value: ''
+      description: ''
+      weight: '24'
+    telegram:
+      value: ''
+      description: ''
+      weight: '25'
+  appearance:
+    orientation: h
+    show_name: 0
+    suggestion: ''
+  link_attributes:
+    target: '<none>'
+    rel: '<none>'
+  iconset:
+    style: 'fontawesome:5x'
+    installed_iconsets:
+      fontawesome:
+        examples: ''
+visibility: {  }
